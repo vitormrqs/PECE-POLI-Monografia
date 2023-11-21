@@ -21,12 +21,12 @@
   },
   {
       "Name": "DAT_NASC",
-      "Type": "string",
+      "Type": "date",
       "Comment": "Data de nascimento ou fundação da pessoa ou empresa."
   },
   {
       "Name": "DAT_RFRC",
-      "Type": "string",
+      "Type": "date",
       "Comment": "Data de referência dos dados."
   }
 ]

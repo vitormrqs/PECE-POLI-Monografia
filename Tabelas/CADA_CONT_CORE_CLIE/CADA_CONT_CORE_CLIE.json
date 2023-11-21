@@ -26,22 +26,22 @@
     },
     {
         "Name": "DAT_ABER_CONT",
-        "Type": "string",
+        "Type": "date",
         "Comment": "Indica a data de abertura da conta, composta por yyyyMMdd, nesse formato."
     },
     {
         "Name": "VLR_SALD_DISP",
-        "Type": "double",
+        "Type": "float",
         "Comment": "Valor do saldo disponível em conta na partição."
     },
     {
         "Name": "VLR_LIMI_CRED",
-        "Type": "double",
+        "Type": "float",
         "Comment": "Valor do limite de crédito disponível para a conta na partição."
     },
     {
         "Name": "IND_CONT",
-        "Type": "string",
+        "Type": "boolean",
         "Comment": "Indica se a conta está 'ativa', 'congelada', 'regular' ou 'inativa'."
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "Name": "DAT_RFRC",
-        "Type": "string",
+        "Type": "date",
         "Comment": "Data de referência dos dados."
     }
 ]
