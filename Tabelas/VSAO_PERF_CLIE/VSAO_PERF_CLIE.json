@@ -1,0 +1,32 @@
+[
+  {
+      "Name": "COD_CHAV_CORO_CLIE",
+      "Type": "string",
+      "Comment": "Código chave corporativo do cliente, composto por 40 dígitos."
+  },
+  {
+      "Name": "NOM_IDEF_PESS",
+      "Type": "string",
+      "Comment": "Nome ou identificação da pessoa."
+  },
+  {
+      "Name": "NUM_CPF_CNPJ",
+      "Type": "string",
+      "Comment": "Número do CPF (Cadastro de Pessoa Física) ou CNPJ (Cadastro Nacional da Pessoa Jurídica)."
+  },
+  {
+      "Name": "COD_TIPO_PESS",
+      "Type": "string",
+      "Comment": "Código que indica o tipo de pessoa (F para pessoa física, J para pessoa jurídica)."
+  },
+  {
+      "Name": "DAT_NASC",
+      "Type": "string",
+      "Comment": "Data de nascimento ou fundação da pessoa ou empresa."
+  },
+  {
+      "Name": "DAT_RFRC",
+      "Type": "string",
+      "Comment": "Data de referência dos dados."
+  }
+]

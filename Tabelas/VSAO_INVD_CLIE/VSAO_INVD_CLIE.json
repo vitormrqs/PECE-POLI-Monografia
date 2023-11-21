@@ -1,0 +1,72 @@
+[
+    {
+        "Name": "COD_CHAV_CORO_CLIE",
+        "Type": "string",
+        "Comment": "Código chave corporativo do cliente, composto por 40 dígitos."
+    },
+    {
+        "Name": "NOM_INVD",
+        "Type": "string",
+        "Comment": "Nome do Investimento."
+    },
+    {
+        "Name": "DAT_CMPR",
+        "Type": "string",
+        "Comment": "Data de Compra no formato yyyyMMdd."
+    },
+    {
+        "Name": "DAT_VENC",
+        "Type": "string",
+        "Comment": "Data de Vencimento no formato yyyyMMdd."
+    },
+    {
+        "Name": "VLR_INVD",
+        "Type": "double",
+        "Comment": "Valor Investido."
+    },
+    {
+        "Name": "QTD_UNID",
+        "Type": "int",
+        "Comment": "Quantidade de Unidades."
+    },
+    {
+        "Name": "VLR_UNID",
+        "Type": "double",
+        "Comment": "Valor Unitário."
+    },
+    {
+        "Name": "VLR_ATUA",
+        "Type": "double",
+        "Comment": "Valor Atual."
+    },
+    {
+        "Name": "PCT_REND",
+        "Type": "double",
+        "Comment": "Rendimento/Dividendos."
+    },
+    {
+        "Name": "CAT_REND",
+        "Type": "string",
+        "Comment": "Categoria do Investimento."
+    },
+    {
+        "Name": "NOM_CORR",
+        "Type": "string",
+        "Comment": "Corretora/Instituição."
+    },
+    {
+        "Name": "VLR_TAXA",
+        "Type": "double",
+        "Comment": "Taxas."
+    },
+    {
+        "Name": "NOM_ESTA_INVD",
+        "Type": "string",
+        "Comment": "Estado do Investimento."
+    },
+    {
+        "Name": "DAT_RFRC",
+        "Type": "string",
+        "Comment": "Data de referência dos dados."
+    }
+]

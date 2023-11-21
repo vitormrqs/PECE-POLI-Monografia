@@ -1,0 +1,57 @@
+[
+    {
+        "Name": "COD_CHAV_CORO_CLIE",
+        "Type": "string",
+        "Comment": "Código chave corporativo cliente, composto por 40 dígitos, criptografado por CPF e COD_TIPO_PESS."
+    },
+    {
+        "Name": "NUM_AGEN",
+        "Type": "string",
+        "Comment": "Agencia do cliente, com 4 dígitos."
+    },
+    {
+        "Name": "NUM_CONT",
+        "Type": "string",
+        "Comment": "Conta do cliente com 8 dígitos."
+    },
+    {
+        "Name": "DES_CATE_CONT",
+        "Type": "string",
+        "Comment": "Categoria do cliente, sendo 'PREMIUM', 'BASIC' ou 'INTERMEDIARIA'."
+    },
+    {
+        "Name": "IND_REGU",
+        "Type": "boolean",
+        "Comment": "Um indicador booleano (0 ou 1) para indicar se o cliente está regular ou não na Receita Federal."
+    },
+    {
+        "Name": "DAT_ABER_CONT",
+        "Type": "string",
+        "Comment": "Indica a data de abertura da conta, composta por yyyyMMdd, nesse formato."
+    },
+    {
+        "Name": "VLR_SALD_DISP",
+        "Type": "double",
+        "Comment": "Valor do saldo disponível em conta na partição."
+    },
+    {
+        "Name": "VLR_LIMI_CRED",
+        "Type": "double",
+        "Comment": "Valor do limite de crédito disponível para a conta na partição."
+    },
+    {
+        "Name": "IND_CONT",
+        "Type": "string",
+        "Comment": "Indica se a conta está 'ativa', 'congelada', 'regular' ou 'inativa'."
+    },
+    {
+        "Name": "NOM_MOED_CONT",
+        "Type": "string",
+        "Comment": "Moeda utilizada pela conta, podendo ser 'dolar' ou 'real' ou 'peso'."
+    },
+    {
+        "Name": "DAT_RFRC",
+        "Type": "string",
+        "Comment": "Data de referência dos dados."
+    }
+]
