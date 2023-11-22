@@ -1,0 +1,119 @@
+{
+    "nome_logico_tabela": "VSAO_INVD_CLIE",
+    "conceituacao": "Registra informações sobre investimentos de clientes, incluindo detalhes como nome do investimento, valores, datas de compra e vencimento, rendimentos.",
+    "localizacao": {
+      "logica": "Camada de Dados Corporativos",
+      "fisica": {
+        "nome_fisico": "VSAO_INVD_CLIE",
+        "dominio": "Banco de Dados Relacional",
+        "tecnologia": "SQL Server",
+        "ambiente": "Produção",
+        "sigla_origem": "INVD"
+      }
+    },
+    "estrutura_tabela": [
+      {
+        "Nome": "COD_CHAV_CORO_CLIE",
+        "Type": "string",
+        "Comentario": "Código chave corporativo do cliente, composto por 40 dígitos."
+      },
+      {
+        "Nome": "NUM_AGEN",
+        "Type": "string",
+        "Comentario": "Agencia do cliente, com 4 dígitos."
+      },
+      {
+        "Nome": "NUM_CONT",
+        "Type": "string",
+        "Comentario": "Conta do cliente com 8 dígitos."
+      },
+      {
+        "Nome": "NOM_INVD",
+        "Type": "string",
+        "Comentario": "Nome do Investimento."
+      },
+      {
+        "Nome": "DAT_CMPR",
+        "Type": "date",
+        "Comentario": "Data de Compra no formato yyyyMMdd."
+      },
+      {
+        "Nome": "DAT_VENC",
+        "Type": "date",
+        "Comentario": "Data de Vencimento no formato yyyyMMdd."
+      },
+      {
+        "Nome": "VLR_INVD",
+        "Type": "float",
+        "Comentario": "Valor Investido."
+      },
+      {
+        "Nome": "QTD_UNID",
+        "Type": "int",
+        "Comentario": "Quantidade de Unidades."
+      },
+      {
+        "Nome": "VLR_UNID",
+        "Type": "float",
+        "Comentario": "Valor Unitário."
+      },
+      {
+        "Nome": "VLR_ATUA",
+        "Type": "float",
+        "Comentario": "Valor Atual."
+      },
+      {
+        "Nome": "PCT_REND",
+        "Type": "float",
+        "Comentario": "Rendimento/Dividendos."
+      },
+      {
+        "Nome": "CAT_REND",
+        "Type": "string",
+        "Comentario": "Categoria do Investimento."
+      },
+      {
+        "Nome": "NOM_CORR",
+        "Type": "string",
+        "Comentario": "Corretora/Instituição."
+      },
+      {
+        "Nome": "VLR_TAXA",
+        "Type": "float",
+        "Comentario": "Taxas."
+      },
+      {
+        "Nome": "NOM_ESTA_INVD",
+        "Type": "string",
+        "Comentario": "Estado do Investimento."
+      },
+      {
+        "Nome": "DAT_RFRC",
+        "Type": "date",
+        "Comentario": "Data de referência dos dados."
+      }
+    ],
+    "nivel_protecao": {
+      "privacidade": "Alta",
+      "confidencialidade": "Alta"
+    },
+    "disponibilidade": {
+      "periodicidade": "Diária",
+      "defasagem": "Nenhuma",
+      "forma_carga": "Automática"
+    },
+    "qualidade": {
+      "data_ultima_atualizacao": "20231119",
+      "data_criacao": "20231119",
+      "referencia_mais_antiga": "20231119",
+      "classificacao_medalhao": "Bronze"
+    },
+    "origens_tabela": {
+      "sistemicas": "Dados provenientes dos sistemas bancários centrais",
+      "manuais": "Não aplicável, predominantemente gerados pelos sistemas automatizados"
+    },
+    "responsaveis_sustentacao": [
+      "Time Investimentos"
+    ]
+  }
+  

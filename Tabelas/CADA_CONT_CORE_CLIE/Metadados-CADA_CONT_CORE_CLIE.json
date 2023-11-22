@@ -1,0 +1,94 @@
+{
+    "nome_logico_tabela": "Cadastro Conta Corrente Cliente",
+    "conceituacao": "Armazena informações sobre contas correntes de clientes, incluindo detalhes como agência, conta, saldo e regularidade.",
+    "localizacao": {
+      "logica": "Camada de Dados Corporativos",
+      "fisica": {
+        "nome_fisico": "CADA_CONT_CORE_CLIE",
+        "dominio": "Banco de Dados Relacional",
+        "tecnologia": "SQL Server",
+        "ambiente": "Produção",
+        "sigla_origem": "CC"
+      }
+    },
+    "estrutura_tabela": [
+      {
+        "Nome": "COD_CHAV_CORO_CLIE",
+        "Type": "string",
+        "Comentario": "Código chave corporativo cliente, composto por 40 dígitos, criptografado por CPF e COD_TIPO_PESS."
+      },
+      {
+        "Nome": "NUM_AGEN",
+        "Type": "string",
+        "Comentario": "Agencia do cliente, com 4 dígitos."
+      },
+      {
+        "Nome": "NUM_CONT",
+        "Type": "string",
+        "Comentario": "Conta do cliente com 8 dígitos."
+      },
+      {
+        "Nome": "DES_CATE_CONT",
+        "Type": "string",
+        "Comentario": "Categoria do cliente, sendo 'PREMIUM', 'BASIC' ou 'INTERMEDIARIA'."
+      },
+      {
+        "Nome": "IND_REGU",
+        "Type": "boolean",
+        "Comentario": "Um indicador booleano (0 ou 1) para indicar se o cliente está regular ou não na Receita Federal."
+      },
+      {
+        "Nome": "DAT_ABER_CONT",
+        "Type": "date",
+        "Comentario": "Indica a data de abertura da conta, composta por yyyyMMdd, nesse formato."
+      },
+      {
+        "Nome": "VLR_SALD_DISP",
+        "Type": "float",
+        "Comentario": "Valor do saldo disponível em conta na partição."
+      },
+      {
+        "Nome": "VLR_LIMI_CRED",
+        "Type": "float",
+        "Comentario": "Valor do limite de crédito disponível para a conta na partição."
+      },
+      {
+        "Nome": "IND_CONT",
+        "Type": "boolean",
+        "Comentario": "Indica se a conta está 'ativa', 'congelada', 'regular' ou 'inativa'."
+      },
+      {
+        "Nome": "NOM_MOED_CONT",
+        "Type": "string",
+        "Comentario": "Moeda utilizada pela conta, podendo ser 'dolar' ou 'real' ou 'peso'."
+      },
+      {
+        "Nome": "DAT_RFRC",
+        "Type": "date",
+        "Comentario": "Data de referência dos dados."
+      }
+    ],
+    "nivel_protecao": {
+      "privacidade": "Alta",
+      "confidencialidade": "Alta"
+    },
+    "disponibilidade": {
+      "periodicidade": "Diária",
+      "defasagem": "Nenhuma",
+      "forma_carga": "Automática"
+    },
+    "qualidade": {
+      "data_ultima_atualizacao": "20231119",
+      "data_criacao": "20231119",
+      "referencia_mais_antiga": "20231119",
+      "classificacao_medalhao": "Bronze"
+    },
+    "origens_tabela": {
+      "sistemicas": "Dados provenientes dos sistemas de conta corrente",
+      "manuais": "Não aplicável, predominantemente gerados pelos sistemas automatizados"
+    },
+    "responsaveis_sustentacao": [
+      "Time Conta Corrente"
+    ]
+  }
+  

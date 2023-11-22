@@ -1,0 +1,69 @@
+{
+    "nome_logico_tabela": "VSAO_PERF_CLIE",
+    "conceituacao": "Armazena informações sobre pessoas físicas e jurídicas, incluindo detalhes como nome, identificação, CPF/CNPJ, data de nascimento/fundação.",
+    "localizacao": {
+      "logica": "Camada de Dados Corporativos",
+      "fisica": {
+        "nome_fisico": "VSAO_PERF_CLIE",
+        "dominio": "Banco de Dados Relacional",
+        "tecnologia": "SQL Server",
+        "ambiente": "Produção",
+        "sigla_origem": "CLIE"
+      }
+    },
+    "estrutura_tabela": [
+      {
+        "Nome": "COD_CHAV_CORO_CLIE",
+        "Type": "string",
+        "Comentario": "Código chave corporativo do cliente, composto por 40 dígitos."
+      },
+      {
+        "Nome": "NOM_IDEF_PESS",
+        "Type": "string",
+        "Comentario": "Nome ou identificação da pessoa."
+      },
+      {
+        "Nome": "NUM_CPF_CNPJ",
+        "Type": "string",
+        "Comentario": "Número do CPF (Cadastro de Pessoa Física) ou CNPJ (Cadastro Nacional da Pessoa Jurídica)."
+      },
+      {
+        "Nome": "COD_TIPO_PESS",
+        "Type": "string",
+        "Comentario": "Código que indica o tipo de pessoa (F para pessoa física, J para pessoa jurídica)."
+      },
+      {
+        "Nome": "DAT_NASC",
+        "Type": "date",
+        "Comentario": "Data de nascimento ou fundação da pessoa ou empresa."
+      },
+      {
+        "Nome": "DAT_RFRC",
+        "Type": "date",
+        "Comentario": "Data de referência dos dados."
+      }
+    ],
+    "nivel_protecao": {
+      "privacidade": "Alta",
+      "confidencialidade": "Alta"
+    },
+    "disponibilidade": {
+      "periodicidade": "Diária",
+      "defasagem": "Nenhuma",
+      "forma_carga": "Automática"
+    },
+    "qualidade": {
+      "data_ultima_atualizacao": "20231119",
+      "data_criacao": "20231119",
+      "referencia_mais_antiga": "20231119",
+      "classificacao_medalhao": "Bronze"
+    },
+    "origens_tabela": {
+      "sistemicas": "Dados provenientes dos sistemas de cadastro atualizados",
+      "manuais": "Não aplicável, predominantemente gerados pelos sistemas automatizados"
+    },
+    "responsaveis_sustentacao": [
+      "Time Visao Cliente"
+    ]
+  }
+  
