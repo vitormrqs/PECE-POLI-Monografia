@@ -15,32 +15,32 @@
       {
         "Nome": "COD_CHAV_CORO_CLIE",
         "Type": "string",
-        "Comentario": "Código chave corporativo do cliente, composto por 40 dígitos."
+        "Comment": "Código chave corporativo do cliente, composto por 40 dígitos."
       },
       {
         "Nome": "NOM_IDEF_PESS",
         "Type": "string",
-        "Comentario": "Nome ou identificação da pessoa."
+        "Comment": "Nome ou identificação da pessoa."
       },
       {
         "Nome": "NUM_CPF_CNPJ",
         "Type": "string",
-        "Comentario": "Número do CPF (Cadastro de Pessoa Física) ou CNPJ (Cadastro Nacional da Pessoa Jurídica)."
+        "Comment": "Número do CPF (Cadastro de Pessoa Física) ou CNPJ (Cadastro Nacional da Pessoa Jurídica)."
       },
       {
         "Nome": "COD_TIPO_PESS",
         "Type": "string",
-        "Comentario": "Código que indica o tipo de pessoa (F para pessoa física, J para pessoa jurídica)."
+        "Comment": "Código que indica o tipo de pessoa (F para pessoa física, J para pessoa jurídica)."
       },
       {
         "Nome": "DAT_NASC",
         "Type": "date",
-        "Comentario": "Data de nascimento ou fundação da pessoa ou empresa."
+        "Comment": "Data de nascimento ou fundação da pessoa ou empresa."
       },
       {
         "Nome": "DAT_RFRC",
         "Type": "date",
-        "Comentario": "Data de referência dos dados."
+        "Comment": "Data de referência dos dados."
       }
     ],
     "nivel_protecao": {
