@@ -3,19 +3,18 @@
 Trabalho de conclusão de curso realizado no decorrer do ano de 2023, orientado pela professora:
 * Profª. MSc. Ana Claudia Rossi
 
-A monografia "Roteiro para Migração de Dados de CRM na área financeira: Integrando a Arquitetura Data Mesh com a Estratégia de Classificação Medalhão" consiste em trabalhar com dados utilizando arquitetura Data Mesh, classificação medalhão e arquitetura de referência NBDRA (NIST Big Data Reference Architecture).
+A monografia "Aplicação da arquitetura Data Mesh com a estratégia de classificação Medalhão em área financeira de gestão de relacionamento com o cliente" consiste em trabalhar com dados utilizando arquitetura Data Mesh, classificação medalhão e arquitetura de referência NBDRA (NIST Big Data Reference Architecture).
 <!-- O projeto consiste em responder 3 questões de negócios por meio de análise de um BI construído através de ETL. Para tal, deve-se ingerir dados do repostório público [Speedtest by Ookla Global Fixed and Mobile Network Performance Map Tiles](https://github.com/teamookla/ookla-open-data#speedtest-by-ookla-global-fixed-and-mobile-network-performance-map-tiles), tratá-los, automatizá-los e disponibilizá-los em camada de BI para análise.
 Foi utilizada a arquitetura medalhão para o projeto, sendo os dados divididos em camada raw (camada dos dados iniciais), trusted (camada tratada) e delivery (camada com modelagem aplicada). -->
 
 ## 🚀 Etapas do projeto
-<!-- 
 Foi definido os seguintes passos:
-1. Ingestão de Dados
-2. Processamento de Dados
-3. Armazenamento de Dados
-4. Orquestração de ferramentas
-5. Qualidade dos dados
-6. Visualização -->
+1. Cosntrução da introdução e problemática
+2. Objetivo
+3. Metodologia
+4. Aplicação da arquitetura Data Mesh
+5. Resultados
+6. Considerações finais 
 
 ## 📋 Arquitetura do projeto
 
