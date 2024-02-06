@@ -3,13 +3,13 @@
 Trabalho de conclusão de curso realizado no decorrer do ano de 2023, orientado pela professora:
 * Profª. MSc. Ana Claudia Rossi
 
-A monografia "Aplicação da arquitetura Data Mesh com a estratégia de classificação Medalhão em área financeira de gestão de relacionamento com o cliente" consiste em trabalhar com dados utilizando arquitetura Data Mesh, classificação medalhão e arquitetura de referência NBDRA (NIST Big Data Reference Architecture).
-<!-- O projeto consiste em responder 3 questões de negócios por meio de análise de um BI construído através de ETL. Para tal, deve-se ingerir dados do repostório público [Speedtest by Ookla Global Fixed and Mobile Network Performance Map Tiles](https://github.com/teamookla/ookla-open-data#speedtest-by-ookla-global-fixed-and-mobile-network-performance-map-tiles), tratá-los, automatizá-los e disponibilizá-los em camada de BI para análise.
-Foi utilizada a arquitetura medalhão para o projeto, sendo os dados divididos em camada raw (camada dos dados iniciais), trusted (camada tratada) e delivery (camada com modelagem aplicada). -->
+A monografia "Aplicação da arquitetura Data Mesh com a estratégia de classificação Medalhão em área financeira de gestão de relacionamento com o cliente" consiste em gerar uma visão agregada  para o time de negócios com a aplicação de arquiteturas e classificação de dados.
+
+O objetivo deste trabalho é aplicar um método de especificação de uma arquitetura de software, hospedada em nuvem, utilizando arquitetura baseada em Data Mesh, arquitetura de referência NBDRA e a classificação Medalhão para um sistema financeiro na área de CRM.
 
 ## 🚀 Etapas do projeto
-Foi definido os seguintes passos:
-1. Cosntrução da introdução e problemática
+Foram definidos os seguintes passos:
+1. Construção da introdução e problemática
 2. Objetivo
 3. Metodologia
 4. Aplicação da arquitetura Data Mesh
@@ -18,8 +18,8 @@ Foi definido os seguintes passos:
 
 ## 📋 Arquitetura do projeto
 
-<!-- O arquivo para arquitetura do projeto está localizado em `arquitetura\Arquitetura Projeto Integrador.drawio`.
-![Arquitetura_Fluxo](/arquitetura/Arquitetura.png) -->
+O de referência para a arquitetura do projeto está localizado em `Imagens\2-NIST.png`.
+![Arquitetura_Fluxo_NIST](/Imagens/2-NIST.png)
 
 ## 🔧 Projeto
 
